@@ -10,7 +10,9 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "build:lambda" : "netfly-lambda build functions",
+    "prod": "npm run build && npm run build:lambda"
   },
   "dependencies": {
     "gatsby": "^2.3.16",
