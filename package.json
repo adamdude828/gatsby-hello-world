@@ -11,7 +11,7 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
-    "build:lambda" : "netfly-lambda build functions",
+    "build:lambda" : "netlifly-lambda build functions",
     "prod": "npm run build && npm run build:lambda"
   },
   "dependencies": {
