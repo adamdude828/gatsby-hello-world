@@ -12,7 +12,7 @@
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
     "build:lambda": "netlifly-lambda build functions",
-    "prod": "npm run build && npm run build:lambda"
+    "prod": "npm run build; npm run build:lambda"
   },
   "dependencies": {
     "gatsby": "^2.3.16",
