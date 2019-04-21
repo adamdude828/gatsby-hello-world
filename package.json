@@ -17,6 +17,7 @@
   "dependencies": {
     "gatsby": "^2.3.16",
     "netlify-lambda": "^1.4.5",
+    "random-name": "^0.1.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },

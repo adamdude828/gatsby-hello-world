@@ -1,5 +1,7 @@
+const random = require("random-name");
+
 async function hello() {
-  return Promise.resolve("Hello, World");
+  return Promise.resolve(`Hello, ${random.first()}`);
 }
 
 exports.handler = async function(event, context) {
